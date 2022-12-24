@@ -12,9 +12,6 @@ class CarService {
     })
   }
 
-  calculateFinalPrice() {
-
-  }
 
   getRandomPositionFromArray(list) {
     const listLength = list.length
