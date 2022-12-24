@@ -117,6 +117,11 @@ describe('CarService Suite tests', () => {
     /* stub function new date */
     sandbox.useFakeTimers(now.getTime())
 
+    /* stub function to find car in json (db) */
+    sandbox.stub(
+      carService.carRepository,
+      carService.carRepository.find.name
+    ).resolves(carMock)
 
     const expectedAmount = carService.currencyFormat.format(206.80)
     const result = await carService.rent(
