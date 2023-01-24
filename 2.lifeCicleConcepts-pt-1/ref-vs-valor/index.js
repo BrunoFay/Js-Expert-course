@@ -17,3 +17,5 @@ item2.counter++
 deepStrictEqual(item, { counter: 1 })
 item2.counter++
 deepStrictEqual(item2, { counter: 2 })
+
+
