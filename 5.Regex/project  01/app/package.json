@@ -1,0 +1,19 @@
+{
+  "name": "project-01",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "npx mocha -w --parallel tests/*.test.js",
+    "test:cov": "npx nyc npx mocha --parallel tests/*.test.js"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "chai": "^4.3.7",
+    "mocha": "^8.4.0",
+    "nyc": "^15.1.0",
+    "pdf-parse": "^1.1.1"
+  }
+}
