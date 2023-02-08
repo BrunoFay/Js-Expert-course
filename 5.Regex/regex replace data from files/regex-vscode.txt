@@ -1,0 +1,28 @@
+regex101.com
+
+^\d{3}.\d{3}.\d{3}-\d{2}$
+
+123.123.123-14
+342-141-515-23
+141-555-215-22
+
+replace [.-] - vazio
+
+fay,bruno
+jofrey, jamal
+latorre,alessandra
+
+
+replace ^(\w+),\s(\w+)$ por
+{firstName:'$2', lastName:'$1'}
+
+o [Bruno Fay](https://www.linkedin.com/in/brunofay/) é programador e voce devia segui-lo lá no
+[Github](http://github.com/brunofay1) ou até mesmo no [Instagram](https://instagram.com/brunofay1)
+
+Ah e pode pesquisar no [Google](https://google.com) ou
+[Yahoo](https://yahoo.com)
+
+vai que vai!
+
+
+replace \[(.*?)\]\(([http|https].*?)\) por <a href= "$2">$1</a>
