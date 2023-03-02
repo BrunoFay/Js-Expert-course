@@ -1,0 +1,22 @@
+{
+  "name": "strategy",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "type": "module",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "npx nodemon index.js"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "devDependencies": {
+    "nodemon": "^2.0.20"
+  },
+  "dependencies": {
+    "knex": "^2.4.2",
+    "mongodb": "^5.1.0",
+    "pg": "^8.9.0"
+  }
+}
