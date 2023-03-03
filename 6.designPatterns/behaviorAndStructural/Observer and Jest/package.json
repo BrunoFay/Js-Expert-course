@@ -1,0 +1,22 @@
+{
+  "dependencies": {
+    "jest": "^26.6.3"
+  },
+  "scripts": {
+    "start": "node src/index.js",
+    "test": "NODE_OPTIONS=--experimental-vm-modules npx jest --runInBand --config ./jest.config.js",
+    "test:cov": "NODE_OPTIONS=--experimental-vm-modules npx jest --config ./jest.config.js --coverage"
+  },
+  "name": "observer-and-jest",
+  "version": "1.0.0",
+  "main": "jest.config.js",
+  "type": "module",
+  "directories": {
+    "test": "test"
+  },
+  "devDependencies": {},
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "description": ""
+}
