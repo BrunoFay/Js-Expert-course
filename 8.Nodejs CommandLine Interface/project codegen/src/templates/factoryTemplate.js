@@ -21,7 +21,7 @@ const template = `
 `
 
 export function factoryTemplate(componentName, repositoryName, serviceName) {
-    const txtFile = template
+  const txtFile = template
     .replaceAll(componentNameAnchor, Util.upperCaseFirstLatter(componentName))
     .replaceAll(serviceNameDepAnchor, Util.lowerCaseFirstLatter(serviceName))
     .replaceAll(repositoryNameDepANchor, Util.lowerCaseFirstLatter(repositoryName))
@@ -30,6 +30,6 @@ export function factoryTemplate(componentName, repositoryName, serviceName) {
 
   return {
     fileName: `${componentName}Factory`,
-    template:txtFile
+    template: txtFile
   }
 }
