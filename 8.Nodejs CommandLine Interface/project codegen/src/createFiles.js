@@ -18,7 +18,7 @@ const defaultDependencies = (layer, componentName) => {
 
 async function executeWrites(pendingFilesToWrite) {
   return Promise.all(pendingFilesToWrite.map((
-    ({ fileName, txtFile }) => fsPromises.writeFile({ fileName, txtFile })
+    ({ fileName, txtFile }) => fsPromises.writeFile(fileName, txtFile)
   ))
   )
 }

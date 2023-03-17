@@ -1,0 +1,10 @@
+{
+  "name":"@brunofay/codegen-mock",
+  "version":"0.0.1",
+  "description":"Mock generator for codegen",
+  "main":"index.js",
+  "type": "module",
+  "author":"Bruno Fay",
+  "license":"MIT"
+
+}
