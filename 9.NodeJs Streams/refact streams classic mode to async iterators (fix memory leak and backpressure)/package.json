@@ -8,8 +8,7 @@
     "start-server": "mkdir -p logs && node webApi.js",
     "api1": "curl localhost:3000 | tee logs/api1.log",
     "api2": "curl localhost:4000 | tee logs/api2.log",
-    "exemple-concat": "node examples/concat-streams.pass-through.js | tee logs/concat-streams.pass-through.log",
-    "exemple-async": "node examples/async-streams.js | tee logs/async-streams.log",
+    "exemple-concat": "node examples/concat-streams.async-iterators.js | tee logs/concat-streams.async-iterators.log",
     "test": "async-streams.js"
   },
   "keywords": [],
